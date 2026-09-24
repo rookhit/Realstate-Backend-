@@ -1,0 +1,11 @@
+# dependencies and build output
+node_modules/
+dist/
+
+# environment files: never commit real values
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
